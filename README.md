@@ -1,16 +1,41 @@
-# assesment_object_lens
+# Object Lens
 
-A new Flutter project.
+## Objective
+A Flutter application that integrates object detection, real-time user guidance, and image capture. This document provides instructions to run the app, dependencies used and link of the app
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## Features
+1. **Object Detection**  
+   - Real-time detection of objects using TensorFlow Lite.
+   - Supports detection of selected objects like laptops, mobiles, and bottles.
 
-A few resources to get you started if this is your first Flutter project:
+2. **Auto-Capture**  
+   - Automatically captures the image when the object is in the correct position.
+   - Displays captured image and metadata (object type, date, and timestamp).
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+4. **Responsive UI**  
+   - Works in both portrait and landscape orientations.
+   - Clean, simple, and responsive design.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+---
+
+## How to Run
+### Prerequisites
+- Flutter SDK installed ([Installation Guide](https://flutter.dev/docs/get-started/install)).
+- Compatible IDE (e.g., Android Studio, VS Code).
+- Device or emulator with camera permissions.
+
+### Steps
+1. Clone the repository:
+   git clone https://github.com/sabiq369/object-lens.git
+   flutter pub get
+   flutter run
+
+## Dependencies
+   - camera: For accessing and using the device camera.
+   - tflite: TensorFlow Lite for real-time object detection.
+   - get: For state management.
+
+## Url
+  - https://drive.google.com/drive/folders/1fLEyuC6S77Xj_TsLNwCLC8yyASYPkie4?usp=sharing
